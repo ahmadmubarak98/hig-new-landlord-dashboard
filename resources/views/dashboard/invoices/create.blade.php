@@ -12,7 +12,7 @@
 @endsection
 
 @section('content')
-    <form class="form" method="post" action="/invoice" enctype="multipart/form-data">
+    <form class="form" method="post" action="invoice" enctype="multipart/form-data">
         {{ csrf_field() }}
         <section class="invoice-add-wrapper">
             <div class="row invoice-add">

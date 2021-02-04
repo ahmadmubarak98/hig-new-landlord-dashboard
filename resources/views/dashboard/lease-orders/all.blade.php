@@ -10,7 +10,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/property/create">
+                <a href="property/create">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">CREATE NEW</button>
                 </a>
             </div>
@@ -62,13 +62,13 @@
                                                 {!!  
                                                 $item->status !== "accepted" && $item->status !== "rejected" ? 
                                                 '
-                                                <a href="/tenant/'.$item->tenant->id.'">
+                                                <a href="tenant/'.$item->tenant->id.'">
                                                     <button class="mr-1 mb-1 round btn btn-outline-info">Review Tenant</button>
                                                 </a>
-                                                <a href="/lease-order/'.$item->id.'/accept">
+                                                <a href="lease-order/'.$item->id.'/accept">
                                                     <button class="mr-1 mb-1 round btn btn-outline-warning">Accept</button>
                                                 </a>
-                                                <a href="/lease-order/'.$item->id.'/reject">
+                                                <a href="lease-order/'.$item->id.'/reject">
                                                     <button class="mr-1 mb-1 round btn btn-outline-danger">Reject</button>
                                                 </a>
                                                 ' : null
@@ -77,10 +77,10 @@
                                                 {!!  
                                                 $item->status == "rejected" ? 
                                                 '
-                                                <a href="/tenant/'.$item->tenant->id.'">
+                                                <a href="tenant/'.$item->tenant->id.'">
                                                     <button class="mr-1 mb-1 round btn btn-outline-info">Review Tenant</button>
                                                 </a>
-                                                <a href="/lease-order/'.$item->id.'/accept">
+                                                <a href="lease-order/'.$item->id.'/accept">
                                                     <button class="mr-1 mb-1 round btn btn-outline-danger">Accept</button>
                                                 </a>
                                                 ' : null
@@ -89,10 +89,10 @@
                                                 {!!  
                                                 $item->status == "accepted" ? 
                                                 '
-                                                <a href="/tenant/'.$item->tenant->id.'">
+                                                <a href="tenant/'.$item->tenant->id.'">
                                                     <button class="mr-1 mb-1 round btn btn-outline-info">Review Tenant</button>
                                                 </a>
-                                                <a href="/lease-order/'.$item->id.'/reject">
+                                                <a href="lease-order/'.$item->id.'/reject">
                                                     <button class="mr-1 mb-1 round btn btn-outline-warning">Reject</button>
                                                 </a>
                                                 ' : null

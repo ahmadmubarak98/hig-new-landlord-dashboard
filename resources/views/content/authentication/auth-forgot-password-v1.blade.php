@@ -75,7 +75,7 @@
         <h4 class="card-title mb-1">Forgot Password? 🔒</h4>
         <p class="card-text mb-2">Enter your email and we'll send you instructions to reset your password</p>
 
-        <form class="auth-forgot-password-form mt-2" action="/auth/reset-password-v1" method="GET">
+        <form class="auth-forgot-password-form mt-2" action="auth/reset-password-v1" method="GET">
           <div class="form-group">
             <label for="forgot-password-email" class="form-label">Email</label>
             <input

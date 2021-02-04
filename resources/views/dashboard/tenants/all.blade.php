@@ -10,7 +10,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/tenant/create">
+                <a href="tenant/create">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">CREATE NEW</button>
                 </a>
             </div>
@@ -50,15 +50,15 @@
                                             <td>{{ $item->first_name . ' ' . $item->last_name }}</td>
                                             <td>{{ $item->nationality }}</td>
                                             <td>
-                                                <a href="/tenant/{{ $item->id }}">
+                                                <a href="tenant/{{ $item->id }}">
                                                     <button class="mr-1 mb-1 round btn btn-outline-info">View</button>
                                                 </a>
 
-                                                <a href="/tenant/{{ $item->id }}/edit">
+                                                <a href="tenant/{{ $item->id }}/edit">
                                                     <button class="mr-1 mb-1 round btn btn-outline-warning">Edit</button>
                                                 </a>
 
-                                                <a href="/tenant/{{ $item->id }}/delete">
+                                                <a href="tenant/{{ $item->id }}/delete">
                                                     <button class="mr-1 mb-1 round btn btn-outline-danger">Delete</button>
                                                 </a>
                                             </td>

@@ -10,7 +10,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/contract">
+                <a href="contract">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">VIEW ALL</button>
                 </a>
             </div>
@@ -45,19 +45,19 @@
                                 </tr>
                                 <tr>
                                     <th>Property No</th>
-                                    <td>{!! '<a href="/property/' . $responseBody->property->id . '">' .
+                                    <td>{!! '<a href="property/' . $responseBody->property->id . '">' .
                                             $responseBody->property->id . '</a>' !!}</td>
                                 </tr>
                                 <tr>
                                     <th>Tenant</th>
-                                    <td>{!! '<a href="/tenant/' . $responseBody->tenant->id . '">' .
+                                    <td>{!! '<a href="tenant/' . $responseBody->tenant->id . '">' .
                                             $responseBody->tenant->first_name . ' ' . $responseBody->tenant->last_name .
                                             '</a>' !!}</td>
                                 </tr>
                                 <tr>
                                     <th>Landlord</th>
                                     <td>{!! $responseBody->landlord ? '<a
-                                            href="/landlord/' . $responseBody->landlord->id . '">' .
+                                            href="landlord/' . $responseBody->landlord->id . '">' .
                                             $responseBody->landlord->first_name . ' ' . $responseBody->landlord->last_name .
                                             '</a>' : 'HIG' !!}</td>
                                 </tr>

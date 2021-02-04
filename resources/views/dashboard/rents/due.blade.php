@@ -67,7 +67,7 @@
                                         {!!  
                                                 !$item->payments ? 
                                                 '
-                                                <a href="/rent/'.$item->id.'/set_paid">
+                                                <a href="rent/'.$item->id.'/set_paid">
                                                     <button class="mr-1 mb-1 round btn btn-outline-danger">Set Paid</button>
                                                 </a>
                                                 ': ''

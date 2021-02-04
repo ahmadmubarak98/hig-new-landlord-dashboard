@@ -36,7 +36,7 @@ $configData = Helper::applClasses();
         <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
           <h2 class="card-title font-weight-bold mb-1">Welcome to HIG! &#x1F44B;</h2>
           <p class="card-text mb-2">Please sign-in to your account and start the adventure</p>
-          <form class="auth-login-form mt-2" action="/" method="GET">
+          <form class="auth-login-form mt-2" action="" method="GET">
             <div class="form-group">
               <label class="form-label" for="login-email">Email</label>
               <input class="form-control" id="login-email" type="text" name="login-email" placeholder="Admin@example.com" aria-describedby="login-email" autofocus="" tabindex="1" />

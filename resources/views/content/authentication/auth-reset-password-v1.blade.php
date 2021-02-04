@@ -75,7 +75,7 @@
         <h4 class="card-title mb-1">Reset Password 🔒</h4>
         <p class="card-text mb-2">Your new password must be different from previously used passwords</p>
 
-        <form class="auth-reset-password-form mt-2" action="/auth/login-v1" method="POST">
+        <form class="auth-reset-password-form mt-2" action="auth/login-v1" method="POST">
           <div class="form-group">
             <div class="d-flex justify-content-between">
               <label for="reset-password-new">New Password</label>

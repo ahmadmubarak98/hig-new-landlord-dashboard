@@ -36,7 +36,7 @@ $configData = Helper::applClasses();
       <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
         <h2 class="card-title font-weight-bold mb-1">Forgot Password? 🔒</h2>
         <p class="card-text mb-2">Enter your email and we'll send you instructions to reset your password</p>
-        <form class="auth-forgot-password-form mt-2" action="/auth/reset-password-v2" method="GET">
+        <form class="auth-forgot-password-form mt-2" action="auth/reset-password-v2" method="GET">
           <div class="form-group">
             <label class="form-label" for="forgot-password-email">Email</label>
             <input class="form-control" id="forgot-password-email" type="text" name="forgot-password-email" placeholder="Admin@example.com" aria-describedby="forgot-password-email" autofocus="" tabindex="1" />

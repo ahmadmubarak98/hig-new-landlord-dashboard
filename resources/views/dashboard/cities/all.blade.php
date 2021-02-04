@@ -10,7 +10,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/city/create">
+                <a href="city/create">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">CREATE NEW</button>
                 </a>
             </div>
@@ -47,11 +47,11 @@
                                         <td>{{ $item->name }}</td>
                                         <td>{{ $item->country->name }}</td>
                                         <td>
-                                            <a href="/city/{{ $item->id }}/edit">
+                                            <a href="city/{{ $item->id }}/edit">
                                                 <button class="mr-1 mb-1 round btn btn-outline-warning">Edit</button>
                                             </a>
 
-                                            <a href="/city/{{ $item->id }}/delete">
+                                            <a href="city/{{ $item->id }}/delete">
                                                 <button class="mr-1 mb-1 round btn btn-outline-danger">Delete</button>
                                             </a>
                                         </td>

@@ -10,7 +10,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/city">
+                <a href="city">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">VIEW ALL</button>
                 </a>
             </div>
@@ -37,7 +37,7 @@
             <div class="col-md-12 col-lg-6 ">
                 <div class="card">
                     <div class="card-body">
-                        <form class="form" method="post" action="/city" enctype="multipart/form-data">
+                        <form class="form" method="post" action="city" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             <div class="row">
                                 <div class="col-md-6 col-12">

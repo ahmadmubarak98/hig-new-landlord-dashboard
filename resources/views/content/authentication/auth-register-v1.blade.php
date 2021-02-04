@@ -75,7 +75,7 @@
         <h4 class="card-title mb-1">Adventure starts here 🚀</h4>
         <p class="card-text mb-2">Make your app management easy and fun!</p>
 
-        <form class="auth-register-form mt-2" action="/" method="GET">
+        <form class="auth-register-form mt-2" action="" method="GET">
           <div class="form-group">
             <label for="register-username" class="form-label">Username</label>
             <input

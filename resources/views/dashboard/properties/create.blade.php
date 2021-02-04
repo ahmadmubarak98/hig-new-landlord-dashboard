@@ -11,7 +11,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/property">
+                <a href="property">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">VIEW ALL</button>
                 </a>
             </div>
@@ -38,7 +38,7 @@
             <div class="col-md-12 col-lg-6 ">
                 <div class="card">
                     <div class="card-body">
-                        <form class="form" method="post" action="/property" enctype="multipart/form-data">
+                        <form class="form" method="post" action="property" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             <input name="latitude" id="latitude" type="hidden">
                             <input name="longitude" id="longitude" type="hidden">

@@ -15,7 +15,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/contract">
+                <a href="contract">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">VIEW ALL</button>
                 </a>
             </div>
@@ -53,7 +53,7 @@
             <div class="col-md-12 col-lg-6 ">
                 <div class="card">
                     <div class="card-body">
-                        <form class="form" method="post" action="/contract" enctype="multipart/form-data">
+                        <form class="form" method="post" action="contract" enctype="multipart/form-data">
                             {{ csrf_field() }}
                             <input name="_method" type="hidden" value="PUT">
                             <input name="id" type="hidden" value={{ $responseBody['id'] }}>

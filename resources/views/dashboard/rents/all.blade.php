@@ -11,7 +11,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/rent/create">
+                <a href="rent/create">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">CREATE NEW</button>
                 </a>
             </div>
@@ -72,7 +72,7 @@
                                             {{ \Carbon\Carbon::parse($item->due_date)->format('Y-m-d') }}
                                         </td>
                                         <td>
-                                            <a href="/rent/{{ $item->id }}/delete">
+                                            <a href="rent/{{ $item->id }}/delete">
                                                 <button class="mr-1 mb-1 round btn btn-outline-danger">Delete</button>
                                             </a>
                                         </td>

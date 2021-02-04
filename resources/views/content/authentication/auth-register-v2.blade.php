@@ -36,7 +36,7 @@ $configData = Helper::applClasses();
       <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
         <h2 class="card-title font-weight-bold mb-1">Adventure starts here 🚀</h2>
         <p class="card-text mb-2">Make your app management easy and fun!</p>
-        <form class="auth-register-form mt-2" action="/" method="GET">
+        <form class="auth-register-form mt-2" action="" method="GET">
           <div class="form-group">
             <label class="form-label" for="register-username">Username</label>
             <input class="form-control" id="register-username" type="text" name="register-username" placeholder="Admindoe" aria-describedby="register-username" autofocus="" tabindex="1"/>

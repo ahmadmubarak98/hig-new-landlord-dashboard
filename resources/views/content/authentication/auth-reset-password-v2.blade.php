@@ -36,7 +36,7 @@ $configData = Helper::applClasses();
       <div class="col-12 col-sm-8 col-md-6 col-lg-12 px-xl-2 mx-auto">
         <h2 class="card-title font-weight-bold mb-1">Reset Password 🔒</h2>
         <p class="card-text mb-2">Your new password must be different from previously used passwords</p>
-        <form class="auth-reset-password-form mt-2" action="/auth/login-v2" method="POST">
+        <form class="auth-reset-password-form mt-2" action="auth/login-v2" method="POST">
           <div class="form-group">
             <div class="d-flex justify-content-between">
               <label for="reset-password-new">New Password</label>

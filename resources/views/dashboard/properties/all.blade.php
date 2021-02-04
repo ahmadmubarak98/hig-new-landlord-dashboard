@@ -10,7 +10,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/property/create">
+                <a href="property/create">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">CREATE NEW</button>
                 </a>
             </div>
@@ -57,20 +57,20 @@
                                             {!!  
                                                 $item->is_listed ? 
                                                 '
-                                                <a href="/property/'.$item->id.'/unpublish">
+                                                <a href="property/'.$item->id.'/unpublish">
                                                     <button class="mr-1 mb-1 round btn btn-outline-danger">Unpublish</button>
                                                 </a>
                                                 ':
                                                 '
-                                                <a href="/property/'.$item->id.'/publish">
+                                                <a href="property/'.$item->id.'/publish">
                                                     <button class="mr-1 mb-1 round btn btn-outline-info">Publish</button>
                                                 </a>
                                                 ' 
                                             !!}
-                                            <a href="/property/{{ $item->id }}/edit">
+                                            <a href="property/{{ $item->id }}/edit">
                                                 <button class="mr-1 mb-1 round btn btn-outline-warning">Edit</button>
                                             </a>
-                                            <a href="/property/{{ $item->id }}/delete">
+                                            <a href="property/{{ $item->id }}/delete">
                                                 <button class="mr-1 mb-1 round btn btn-outline-danger">Delete</button>
                                             </a>
                                         </td>

@@ -10,7 +10,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/contract/create">
+                <a href="contract/create">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">CREATE NEW</button>
                 </a>
             </div>
@@ -83,21 +83,21 @@
                                             {{ \Carbon\Carbon::parse($item->next_payment_date)->format('Y-m-d') }}
                                         </td>
                                         <td>
-                                        <a href="/contract/{{ $item->id }}">
+                                        <a href="contract/{{ $item->id }}">
                                                 <button class="mr-1 mb-1 round btn btn-outline-info">View</button>
                                             </a>
-                                            <a href="/contract/{{ $item->id }}/edit">
+                                            <a href="contract/{{ $item->id }}/edit">
                                                 <button class="mr-1 mb-1 round btn btn-outline-warning">Edit</button>
                                             </a>
                                         {!!  
                                                 $item->status === 'active' ? 
                                                 '
-                                                <a href="/contract/'.$item->id.'/terminate">
+                                                <a href="contract/'.$item->id.'/terminate">
                                                     <button class="mr-1 mb-1 round btn btn-outline-danger">Terminate</button>
                                                 </a>
                                                 ': ''
                                             !!}
-                                            <a href="/contract/{{ $item->id }}/delete">
+                                            <a href="contract/{{ $item->id }}/delete">
                                                 <button class="mr-1 mb-1 round btn btn-outline-danger">Delete</button>
                                             </a>
                                         </td>

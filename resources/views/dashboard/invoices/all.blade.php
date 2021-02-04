@@ -10,7 +10,7 @@
     <section class="">
         <div class="mb-2 row">
             <div class="col-sm-12 col-md-12 col-lg-12">
-                <a href="/invoice/create">
+                <a href="invoice/create">
                     <button class="mr-1 mb-1 bg-gradient-primary btn btn-none">CREATE NEW</button>
                 </a>
             </div>
@@ -54,10 +54,10 @@
                                         <td>{{ $item->total }}</td>
                                         <td>{{ Carbon\Carbon::parse($item->created_at)->format('Y-m-d') }}</td>
                                         <td>
-                                            <a href="/invoice/{{ $item->id }}">
+                                            <a href="invoice/{{ $item->id }}">
                                                 <button class="mr-1 mb-1 round btn btn-outline-info">View</button>
                                             </a>
-                                            <a href="/invoice/{{ $item->id }}/delete">
+                                            <a href="invoice/{{ $item->id }}/delete">
                                                 <button class="mr-1 mb-1 round btn btn-outline-danger">Delete</button>
                                             </a>
                                         </td>

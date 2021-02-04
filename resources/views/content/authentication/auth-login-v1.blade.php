@@ -75,7 +75,7 @@
         <h4 class="card-title mb-1">Welcome to HIG! 👋</h4>
         <p class="card-text mb-2">Please sign-in to your account and start the adventure</p>
 
-        <form class="auth-login-form mt-2" action="/" method="GET">
+        <form class="auth-login-form mt-2" action="" method="GET">
           <div class="form-group">
             <label for="login-email" class="form-label">Email</label>
             <input
