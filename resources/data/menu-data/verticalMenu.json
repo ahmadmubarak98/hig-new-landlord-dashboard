@@ -1,0 +1,65 @@
+{
+  "menu": [
+    {
+      "url": "/",
+      "name": "Dashboard",
+      "icon": "home",
+      "slug": "app-email"
+    },
+    {
+      "name": "Properties",
+      "icon": "file-text",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "property",
+          "name": "All Properties",
+          "icon": "circle",
+          "slug": "app-invoice-list"
+        },
+        {
+          "url": "property/leased",
+          "name": "Leased Properties",
+          "icon": "circle",
+          "slug": "app-invoice-preview"
+        },
+        {
+          "url": "property/empty",
+          "name": "Empty Properties",
+          "icon": "circle",
+          "slug": "app-invoice-edit"
+        },
+        {
+          "url": "property/listed",
+          "name": "Listed Properties",
+          "icon": "circle",
+          "slug": "app-invoice-add"
+        }
+      ]
+    },
+    {
+      "url": "rent",
+      "name": "Rents",
+      "icon": "file-text",
+      "slug": "app-rents"
+    },
+    {
+      "url": "lease-order",
+      "name": "Lease Orders",
+      "icon": "mail",
+      "slug": "app-email"
+    },
+    {
+      "url": "tenant",
+      "name": "Tenants",
+      "icon": "users",
+      "slug": "app-email"
+    },
+    {
+      "url": "contract",
+      "name": "Contracts",
+      "icon": "file-text",
+      "slug": "app-email"
+    }
+  ]
+}
