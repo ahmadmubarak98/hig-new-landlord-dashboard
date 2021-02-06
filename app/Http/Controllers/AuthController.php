@@ -79,7 +79,7 @@ class AuthController extends Controller
             $token = [];
             $token['token'] = $response['data']['login_token'];
             $token['expires_at'] = Carbon::now()->addWeeks(30);
-            return redirect()->to('/')->withCookie(cookie('login_token', $token['token']));
+            return redirect()->to('/')->withCookie(cookie('the_login_token', $token['token']));
         } elseif (422 === $statuscode) {
             $errors = $response['errors'];
             return back()
@@ -130,11 +130,11 @@ class AuthController extends Controller
             $user['name'] = $response['data']['first_name'] . " " . $response['data']['last_name'];
             $user['email'] = $response['data']['email'];
             $user['login_token'] = $response['data']['login_token'];
-            return redirect()->to('/')->withCookie(cookie('login_token', $token['token']))
+            return redirect()->to('/')->withCookie(cookie('the_login_token', $token['token']))
                 ->withCookie(cookie('user_id', $user['id']))
                 ->withCookie(cookie('user_name', $user['name']))
                 ->withCookie(cookie('email', $user['email']))
-                ->withCookie(cookie('login_token', $user['login_token']));
+                ->withCookie(cookie('the_login_token', $user['login_token']));
             return redirect()->to('/');
         } elseif (422 === $statuscode) {
             return back()
@@ -160,7 +160,7 @@ class AuthController extends Controller
      */
     public function logout(Request $request)
     {
-        return redirect()->to('/')->withCookie(\Cookie::forget('login_token'));
+        return redirect()->to('/')->withCookie(\Cookie::forget('the_login_token'));
     }
 
     /**

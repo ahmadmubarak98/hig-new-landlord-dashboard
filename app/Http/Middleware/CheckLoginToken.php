@@ -16,7 +16,7 @@ class CheckLoginToken
      */
     public function handle(Request $request, Closure $next)
     {
-        if ($request->hasCookie('login_token')) {
+        if ($request->hasCookie('the_login_token')) {
             return $next($request);
         }
         return redirect('/login');
