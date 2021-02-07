@@ -68,10 +68,6 @@
                                     <td>{{ $responseBody->has_child_properties ? 'Yes' : 'No' }}</td>
                                 </tr>
                                 <tr>
-                                    <th>Parent Property No.</th>
-                                    <td>{{ $responseBody->parent_property ? $responseBody->parent_property->property_no : null }}</td>
-                                </tr>
-                                <tr>
                                     <th>Area (Feet)</th>
                                     <td>{{ $responseBody->area_foot }}</td>
                                 </tr>

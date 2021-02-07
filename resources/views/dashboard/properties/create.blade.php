@@ -93,18 +93,6 @@
 
                                 <div class="col-md-6 col-12">
                                     <div class="form-group">
-                                        <label for="name">Parent Property</label>
-                                        <select name="parent_property" id="parent_property" class="select2 form-control">
-                                            @foreach ($properties as $item)
-                                                <option value="{{ $item['id'] }}">{{ $item['property_no'] }}
-                                                </option>
-                                            @endforeach
-                                        </select>
-                                    </div>
-                                </div>
-
-                                <div class="col-md-6 col-12">
-                                    <div class="form-group">
                                         <label for="address_line_1">Address Line 1</label>
                                         <input type="text" name="address_line_1" id="address_line_1" class="form-control"
                                             placeholder="Address Line 1" value="{{ old('address_line_1') }}" />

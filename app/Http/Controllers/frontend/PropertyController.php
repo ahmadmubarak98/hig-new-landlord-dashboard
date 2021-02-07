@@ -192,7 +192,6 @@ class PropertyController extends Controller
         $output[] = ['name' => 'country_id', 'contents' => $request->country];
         $output[] = ['name' => 'city_id', 'contents' => $request->city];
         $output[] = ['name' => 'property_type_id', 'contents' => $request->property_type_id];
-        $output[] = ['name' => 'parent_property_id', 'contents' => $request->parent_property];
         $output[] = ['name' => 'address_line_1', 'contents' => $request->address_line_1];
         $output[] = ['name' => 'address_line_2', 'contents' => $request->address_line_2];
         $output[] = ['name' => 'area_foot', 'contents' => $request->area_foot];
@@ -265,7 +264,6 @@ class PropertyController extends Controller
         $output[] = ['name' => 'country_id', 'contents' => $request->country];
         $output[] = ['name' => 'city_id', 'contents' => $request->city];
         $output[] = ['name' => 'property_type_id', 'contents' => $request->property_type_id];
-        $output[] = ['name' => 'parent_property_id', 'contents' => $request->parent_property];
         $output[] = ['name' => 'address_line_1', 'contents' => $request->address_line_1];
         $output[] = ['name' => 'address_line_2', 'contents' => $request->address_line_2];
         $output[] = ['name' => 'area_foot', 'contents' => $request->area_foot];
